@@ -1,0 +1,36 @@
+.container{
+    margin-bottom: 100px;
+}
+.carousel-item{
+    padding: 10px 30px;
+}
+.cat1{
+    background-color: rgb(151, 42, 230);
+}
+.cat2{
+    background-color: yellowgreen;
+}
+.cat1, .cat2{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.category h1{
+    color: white;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.buy-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
