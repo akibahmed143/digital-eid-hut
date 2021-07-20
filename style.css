@@ -1,9 +1,12 @@
 .container{
     margin-bottom: 100px;
 }
+
 .carousel-item{
     padding: 10px 30px;
 }
+
+/* category section */
 .cat1{
     background-color: rgb(151, 42, 230);
 }
@@ -17,6 +20,9 @@
 .category h1{
     color: white;
 }
+/* ------------------ */
+
+/* card section */
 .card{
     border: none;
     border-radius: 10px;
@@ -34,6 +40,8 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+/* ------------------ */
+
 footer{
     text-align: center;
 }
