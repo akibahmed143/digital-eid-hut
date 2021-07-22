@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Eid Hut</title>
+    <title>Digital Haat</title>
+    <link rel="manifest" href="/site.webmanifest">
     <!-- css stylesheet -->
     <link rel="stylesheet" href="style.css">
     <!-- bootstrap stylesheet -->
@@ -18,9 +19,9 @@
     <header>
         <div class="container fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand ps-5" href="#">
+                <a class="navbar-brand ps-2" href="#">
                     <img src="images/logo/logo-1.png" alt="" width="55" height="55">
-                    Digital Eid Hut
+                    Digital Haat
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -75,8 +76,26 @@
 
     <!-- main starts  -->
     <main>
+        <!-- hero section starts -->
+        <section class="container bg-darker bg-size-cover bg-position-center py-5 py-xl-10"
+            style="background-image: url(images/background.jpg); background-repeat:no-repeat; background-position: center;">
+            <div class="container">
+                <div class=" row justify-content-center pb-8">
+                    <div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 text-center">
+                        <h5 class="fw-light">#1 Animal Delivery Service since 2019</h5>
+                        <div class="h1 mb-3 pb-4">
+                            We deliver your favorite animal fresh fast in Jashore.
+                        </div>
+                        <a class="btn btn-primary" href="#cuisine" data-scroll="">What do you want to order?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero section ends -->
+
         <!-- category starts -->
-        <div class="container category">
+        <div class="container category" id="cuisine">
             <div class="row">
                 <div class="col-md-6">
                     <div class="d-flex justify-content-between align-items-center cat1">
@@ -92,24 +111,27 @@
                 </div>
             </div>
         </div>
+        <hr class="hr-black mt-md-2 mb-5 container">
 
         <!-- category ends -->
 
         <!-- c 4 cow starts -->
-        <div class="container cow" id="cow">
-            <h3>Cow</h3>
+        <div class="container" id="cow">
             <div class="card-deck">
                 <div class="row">
                     <div class="col-xl-4 col-md-6">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="card">
-                                <img src="images/cows/1.jpg" class="card-img-top" alt="..." width="350" height="210">
+                                <img src="images/cows/1.jpg" class="card-img-top rounded" alt="" width="350"
+                                    height="210">
                                 <div class="card-body">
-                                    <h5 class="card-title">White Hulk</h5>
-                                    <p class="card-text">Cows are well adapted for grazing, with a wide mouth and
-                                        specialized teeth for eating tough vegetation.</p>
+                                    <h3 class="card-title">White Hulk</h3>
+                                    <p class="card-text">Cows are well adapted for grazing (feeding on grass), with a
+                                        wide mouth and
+                                        specialized
+                                        teeth for eating tough vegetation.</p>
                                     <h5>Tk 180000</h5>
-                                    <button class="buy-now-button">Buy Now >></button>
+                                    <button class="buy-now-button"><span>Buy Now</span></button>
                                 </div>
                             </div>
                         </div>
@@ -117,28 +139,33 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="card">
-                                <img src="images/cows/4.jpg" class="card-img-top" alt="..." width="350" height="210">
+                                <img src="images/cows/4.jpg" class="card-img-top rounded" alt="" width="350"
+                                    height="210">
                                 <div class="card-body">
-                                    <h5 class="card-title">Black Tiger</h5>
-                                    <p class="card-text">Cows are well adapted for grazing, with a wide mouth and
-                                        specialized teeth for eating tough vegetation.</p>
+                                    <h3>Black Tiger</h3>
+                                    <p>Cows are well adapted for grazing (feeding on grass), with a wide mouth and
+                                        specialized
+                                        teeth
+                                        for eating tough vegetation.</p>
                                     <h5>Tk 120000</h5>
-                                    <button class="buy-now-button">Buy Now >></button>
+                                    <button class="buy-now-button"><span>Buy Now</span></button>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xl-4 col-md-6">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="card">
-                                <img src="images/cows/6.jpg" class="card-img-top" alt="..." width="350" height="210">
+                                <img src="images/cows/6.jpg" class="card-img-top rounded" alt="" width="350"
+                                    height="210">
                                 <div class="card-body">
-                                    <h5 class="card-title">Red Diamond</h5>
-                                    <p class="card-text">Cows are well adapted for grazing, with a wide mouth and
-                                        specialized teeth for eating tough vegetation.</p>
+                                    <h3>Red Diamond</h3>
+                                    <p>Cows are well adapted for grazing (feeding on grass), with a wide mouth and
+                                        specialized
+                                        teeth
+                                        for eating tough vegetation.</p>
                                     <h5>Tk 150000</h5>
-                                    <button class="buy-now-button">Buy Now >></button>
+                                    <button class="buy-now-button"><span>Buy Now</span></button>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +173,6 @@
                 </div>
             </div>
         </div>
-
         <!-- c 4 cow ends -->
 
         <!-- g 4 goat starts -->
@@ -163,7 +189,7 @@
                                     <p class="card-text">Goats are well adapted for grazing, with a wide mouth and
                                         specialized teeth for eating tough vegetation.</p>
                                     <h5>Tk 6000</h5>
-                                    <button class="buy-now-button">Buy Now >></button>
+                                    <button class="buy-now-button"><span>Buy Now</span></button>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +203,7 @@
                                     <p class="card-text">Goats are well adapted for grazing, with a wide mouth and
                                         specialized teeth for eating tough vegetation.</p>
                                     <h5>Tk 4500</h5>
-                                    <button class="buy-now-button">Buy Now >></button>
+                                    <button class="buy-now-button"><span>Buy Now</span></button>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +218,7 @@
                                     <p class="card-text">Goats are well adapted for grazing, with a wide mouth and
                                         specialized teeth for eating tough vegetation.</p>
                                     <h5>Tk 5000</h5>
-                                    <button class="buy-now-button">Buy Now >></button>
+                                    <button class="buy-now-button"><span>Buy Now</span></button>
                                 </div>
                             </div>
                         </div>
@@ -202,6 +228,35 @@
         </div>
 
         <!-- g 4 goat ends -->
+
+        <!-- Courier/Partner sec. starts -->
+        <section class="container px-4 pt-lg-5 pb-sm-5">
+            <div class="row gx-5 pt-4 mt-2 mt-lg-3 mb-md-2">
+                <div class="col-xl-6 col-md-12 mb-grid-gutter">
+                    <div class="d-block d-sm-flex justify-content-between align-items-center bg-faded-info rounded-3">
+                        <div class="pt-5 py-sm-5 px-4 ps-md-5 pe-md-0 text-center text-sm-start">
+                            <h2>Become a Courier</h2>
+                            <p class="text-muted pb-2">Earn competitive salary as delivery courier working flexible
+                                schedule.</p><a class="btn btn-primary" href="#">Start earning</a>
+                        </div><img class="d-block mx-auto mx-sm-0 rounded" src="images/courier&partner/courier.jpg"
+                            width="270" alt="Become a Courier">
+                    </div>
+                </div>
+                <div class="col-xl-6 mb-grid-gutter">
+                    <div
+                        class="d-block d-sm-flex justify-content-between align-items-center bg-faded-warning rounded-3">
+                        <div class="pt-5 py-sm-5 px-4 ps-md-5 pe-md-0 text-center text-sm-start">
+                            <h2>Become a Partner</h2>
+                            <p class="text-muted pb-2">Grow your business by reaching new customers.</p><a
+                                class="btn btn-primary" href="#">Partner with us</a>
+                        </div><img class="d-block mx-auto mx-sm-0 rounded" src="images/courier&partner/partner.jpg"
+                            width="270" alt="Become a Partner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courier/Partner sec. ends -->
     </main>
 
     <!-- main ends -->
